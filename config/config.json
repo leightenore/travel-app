@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "root",
-    "database": "travel_db",
-    "host": "127.0.0.1",
+    "username": "pm7qtv4qj6x1mn40",
+    "password": "zlkfufl8dfdc1crf",
+    "database": "zlkfufl8dfdc1crf",
+    "host": "wvulqmhjj9tbtc1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
