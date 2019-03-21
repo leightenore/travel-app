@@ -80,13 +80,14 @@
 
 <script>
     $.backstretch('images/botany-dark-green-plants-fern-1687341.jpg');
+    
     window.onload = function () {
-        apicall = $.get('/api/destinations', function (data) {
-            console.log(data);
+        $.get('/api/destinations', function (data) {
             $("#destination").append(data[0].destination);
             $("#carousel1").attr("src", data[0].image_one);
             $("#carousel2").attr("src", data[0].image_two);
             $("#carousel3").attr("src", data[0].image_three);
+            console.log(data);
         });
     }
 
