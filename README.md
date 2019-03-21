@@ -1,6 +1,8 @@
 # Off the Beaten Path
 ## Project Two of U of A Bootcamp
 
+[https://offthebeatenpath.herokuapp.com](https://offthebeatenpath.herokuapp.com)
+
 ## Description 
 
 This is a full stack web application that allows users to select their travel preferences and matches them with an "Off the Beaten Path" travel destination.
