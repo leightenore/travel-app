@@ -1,0 +1,354 @@
+body {
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+#homeDiv {
+  background: transparent;
+  font-size: 8.5rem;
+  color: white;
+}
+
+#biomeDiv {
+  background: transparent;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#biomesDivImgs {
+  margin-top: 70px; 
+  font-size: 4.5rem;
+}
+
+.biomeImage {
+  width: 300px;
+  -webkit-filter: grayscale(70%);
+  border-radius: 1%;
+}
+
+.wrapper {
+  margin: 0px 10px;
+  width: 300px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapper .text {
+  position: relative;
+  bottom: 140px;
+  left: 0px;
+  visibility: hidden;
+  width: 300px;
+}
+  
+.wrapper:hover .text {
+  visibility:visible;
+}
+
+.wrapper:hover .biomeImage {
+  -webkit-filter: grayscale(0%);
+  transition: 0.7s ease;
+}
+
+.carousel-item {
+  margin: 0 auto;
+}
+
+#q1Div {
+  display: none;
+  background: transparent;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#q1DivImgs {
+  margin-top: 50px; 
+  font-size: 4rem;
+}
+
+.q1Image {
+  height: 200px;
+  -webkit-filter: grayscale(70%);
+  border-radius: 1%;
+}
+
+.q1Wrapper .text {
+  position: relative;
+  bottom: 150px;
+  left: 0px;
+  visibility: hidden;
+}
+  
+.q1Wrapper:hover .text {
+  visibility:visible;
+}
+
+.q1Wrapper:hover .q1Image {
+  -webkit-filter: grayscale(0%);
+  transition: 0.7s ease;
+}
+
+.q1Wrapper {
+  margin: 0px 50px 0px 0px;
+}
+
+#q2Div {
+  display: none;
+  background: transparent;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#q2DivImgs {
+  margin-top: 50px; 
+  font-size: 5rem;
+}
+
+.q2Image {
+  height: 230px;
+  -webkit-filter: grayscale(70%);
+  border-radius: 1%;
+}
+
+.q2Wrapper .text {
+  position: relative;
+  bottom: 170px;
+  left: 0px;
+  visibility: hidden;
+}
+  
+.q2Wrapper:hover .text {
+  visibility:visible;
+}
+
+.q2Wrapper:hover .q2Image {
+  -webkit-filter: grayscale(0%);
+  transition: 0.7s ease;
+}
+
+.q2Wrapper {
+  margin: 0px 50px 0px 0px;
+}
+
+#budgetDiv {
+  display: none;
+  background: transparent;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#budgetDivImgs {
+  margin-top: 50px; 
+  font-size: 5rem;
+}
+
+.budgetImage {
+  height: 200px;
+  -webkit-filter: grayscale(70%);
+  border-radius: 1%;
+}
+
+.budgetWrapper .text {
+  position: relative;
+  bottom: 147px;
+  left: 0px;
+  visibility: hidden;
+}
+  
+.budgetWrapper:hover .text {
+  visibility:visible;
+}
+
+.budgetWrapper:hover .budgetImage {
+  -webkit-filter: grayscale(0%);
+  transition: 0.7s ease;
+}
+
+.budgetWrapper {
+  margin: 0px 50px 0px 0px;
+}
+
+#surveySum{
+  border-radius: 15px;
+  background-color: rgb(39, 50, 101);
+  color: white;
+  font-size: 30px;
+}
+
+.modal-content {
+  background-color: rgba(24, 52, 39, .5);
+  font-size: 50px;
+  color: rgb(232, 234,208);
+  padding: 20px 50px;
+}
+
+.modal-head{
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.carousel-indicators {
+  margin: auto;
+}
+
+#resultsJumbotron {  
+  font-size: 4rem;
+  background-color: transparent;
+  color: white;
+  margin: auto;
+  padding-top: 25px
+}
+
+#destinationp {
+  font-size: 4rem;
+  background-color: transparent;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.carousel-item {
+  margin: 0 auto;
+}
+
+.row {
+  width: 100vw !important;
+  text-align: center;
+}
+
+/* Button Animation */
+.centerer {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (min-width: 600px) {
+  .wrap {
+    width: 50%;
+    float: left;
+  }
+}
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 80px;
+  max-width: 250px;
+  margin: 1rem auto;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+.btn-9 {
+    color: rgb(232, 234,208);
+    background-color: rgb(60, 78, 76, .8);
+    text-align: center;
+    border-radius: 5px;
+  }
+  .btn-9:before, .btn-9:after,
+  .btn-9 span:before,
+  .btn-9 span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(211, 201,167, 0.25);
+    transition: 0.4s ease-in-out;
+  }
+  .btn-9:after,
+  .btn-9 span:before {
+    top: auto;
+    bottom: 0;
+  }
+  .btn-9 span:before,
+  .btn-9 span:after {
+    transition-delay: 0.4s;
+  }
+  .btn-9:hover {
+    color: rgb(232, 234,208);
+  }
+  .btn-9:hover:before, .btn-9:hover:after,
+  .btn-9:hover span:before,
+  .btn-9:hover span:after {
+    height: 80px;
+  }
+  .btn-9:active {
+    background-color: rgb(232, 234,208);
+  }
+  @-webkit-keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }
+  
+  @-webkit-keyframes fadeInLeftBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-2000px, 0, 0);
+      transform: translate3d(-2000px, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInLeftBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-2000px, 0, 0);
+      transform: translate3d(-2000px, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInLeftBig {
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+  }
